@@ -1,0 +1,263 @@
+    1  ls
+    2  ls /data
+    3  pwd
+    4  mkdir umuzi_bootcamp
+    5  ls
+    6  cd umuzi_bootcamp
+    7  mkdir Outer_directory
+    8  cd Outer_directory
+    9  mkdir Inner_directory
+   10  cd Inner_directory
+   11  cd
+   12  cd home
+   13  cd MINGW64
+   14  cd
+   15  mingw64
+   16  cd mingw64
+   17  cd umuzi_bootcamp
+   18  cd umuzi_bootcamp
+   19  pw
+   20  pwd
+   21  cd umuzi_bootcamp
+   22  cd PortableGit
+   23  ls
+   24  cd Documents
+   25  cd PortableGit
+   26  cd umuzi_bootcamp
+   27  cd..
+   28  cd ..
+   29  cd umuzi_bootcamp/Outer_directory
+   30  cd ../..
+   31  cd /
+   32  pwd
+   33  cd ~
+   34  pwd
+   35  cd
+   36  pwd
+   37  cd /
+   38  cd ~/umuzi_bootcamp
+   39  cd ~/PortableGit
+   40  pwd
+   41  ls
+   42  cd ~
+   43  umuzi_bootcampls -l /home
+   44  umuzi_bootcampls -l /mingw64
+   45  ls -1
+   46  cd /umuzi_bootcamp
+   47  ls -l umuzi_bootcamp
+   48  cd /Outer_direcotry
+   49  ls -l /umuzi_bootcamp
+   50  ls -R /umuzi_bootcamp
+   51  ls -l -t -r /umuzi_bootcamp
+   52  ls -lh /umuzi_bootcamp
+   53  man ls
+   54  mab
+   55  man
+   56  man ls
+   57  cd ~
+   58  rmdir
+   59  rmdir --help
+   60  cd /umuzi_bootcamp
+   61  rmdir
+   62  cd Outer_directory
+   63  rmdir Inner_directory
+   64  cd ~
+   65  cd /umuzi_bootcamp/
+   66  ls /
+   67  ls
+   68  cd home
+   69  cd home~
+   70  mkdir git-basic-excercises
+   71  cd /git-basic-excercises
+   72  cd /git-basic-excercises
+   73  cd /git-basic-excercises
+   74  pwd
+   75  cd git-basic-exercises
+   76  rmdir git-basic-excercises
+   77  rmdir Outer_directory
+   78  mkdir git-basic-exercises
+   79  cd get-basic-exercises
+   80  cd git-basic-exercises
+   81  ls -a
+   82  git init
+   83  ls -a
+   84  git status
+   85  touch README.md
+   86  ls -a
+   87  get status
+   88  git status
+   89  git log
+   90  git status
+   91  git add 
+   92  git add README.md
+   93  git status
+   94  git restore .
+   95  git status
+   96  git restore README.md
+   97  git status
+   98  git add .
+   99  git status
+  100  git rm
+  101  git rm --cached README
+  102  git status
+  103  git rm --cached
+  104  man rm --cached 
+  105  man rm
+  106  git commit -m "initial commit"
+  107  git log
+  108  q
+  109  nano README.md
+  110  cat README.md
+  111  git status
+  112  git add
+  113  git status
+  114  git add .
+  115  git commit -m "second commit"
+  116  nano README.md
+  117  cat README.md
+  118  git status
+  119  git add .
+  120  git status
+  121  git commit -m "third commit"
+  122  git log
+  123  q
+  124  q
+  125  git checkout [200~788a289f9804b44a335dc498cb92cb0518af9c55~
+  126  git checkout 200~788a289f9804b44a335dc498cb92cb0518af9c55~
+  127  git checkout  788a289f9804b44a335dc498cb92cb0518af9c55
+  128  cat RAEDME.md
+  129  cat README.md
+  130  git checkout main
+  131  git checkout main
+  132  cat README.md
+  133  git branch
+  134  git branch milkshake-flavours
+  135  git branch 
+  136  git branch
+  137  git checkout
+  138  git branch
+  139  git checkoout milkshake-flavours
+  140  git checkout milkshake-flavours
+  141  git checkout
+  142  git branch
+  143  nano milkshake.md
+  144  git status
+  145  git commit -m "added initial flavours"
+  146  git log
+  147  git checkout Master
+  148  git checkout
+  149  git branch history
+  150  git checkout
+  151  git log
+  152  git branch
+  153  history > history.txt
+  154  git commit -m "added history"
+  155  git log
+  156  git checkout milkshake-flavours
+  157  git log
+  158  git checkout 
+  159  git log
+  160  cat README.md
+  161  nano README.md
+  162  git commit -m "random readme changes"
+  163  git branch history
+  164  git checkout history
+  165  git commit -m "random readme changes"
+  166  git commit
+  167  git commit -m "random readme changes"
+  168  git checkout history
+  169  cat README.md
+  170  git commit -m "random readme changes"
+  171  git add .
+  172  git status
+  173  git commit -m "some random changes"
+  174  git checkout history
+  175  cat README.md
+  176  rm README.md
+  177  echo "booya" > README.md
+  178  git status
+  179  git add
+  180  git commit -m "rewrote readme"
+  181  git add .
+  182  git commit -m "rewrote readme"
+  183  checkout master
+  184  git checkout 
+  185  git checkout master
+  186  cd umuzi_bootcamp
+  187  ls
+  188  cd git-basic-exercises
+  189  git checkout master
+  190  git checkout main
+  191  ls
+  192  git log
+  193  checkout milkshake-flavours
+  194  git checkout milkshake-flavours
+  195  ls
+  196  git log
+  197  ls
+  198  git log output
+  199  git log
+  200  git checkout master
+  201  git merge milkshake-flavours
+  202  git merge history
+  203  mkdir git-basic-exercises
+  204  cd git-basic-exercises
+  205  ls -a
+  206  git init
+  207  git status
+  208  touch README.md
+  209  ls -a
+  210  git status
+  211  git log
+  212  git add .
+  213  git status
+  214  git rm --cached README.md
+  215  git status
+  216  git add .
+  217  git commit -m "initial commit"
+  218  git log
+  219  q
+  220  nano README.md
+  221  nano README.md
+  222  cat README.md
+  223  git status
+  224  git commit -m "second commit"
+  225  git status
+  226  git add .
+  227  git commit -m "second commit"
+  228  nano README.md
+  229  cat README.md
+  230  git status
+  231  git add .
+  232  git commit -m "third commit"
+  233  git log
+  234  q
+  235  git checkout
+  236  cat README.md
+  237  git checkout main
+  238  git check master
+  239  cat README.md
+  240  git checkout 5a69832cddf73b19db731e802138d07d5e370b59
+  241  cat README.md
+  242  git checkout main
+  243  cat README.md
+  244  git checkout master
+  245  cat README.md
+  246  git checkout
+  247  git branch
+  248  git branch milkshake-flavours
+  249  git branch
+  250  git checkout milkshake-flavours
+  251  git branch
+  252  nano milkshakes.md
+  253  git status
+  254  git add .
+  255  git commit -m "added initial flavours"
+  256  git log
+  257  git checkout master
+  258  git log
+  259  git branch history
+  260  git checkout history
+  261  git log
+  262  git branch
+  263  history > history.txt
